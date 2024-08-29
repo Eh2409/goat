@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goatgame</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="konfeti"> <img src="img/konfeti.gif" alt=""></div>
+    <div class="header"><a href="index.html"><img src="img/logo.png" style=" width: 50%;" alt="" ></a></div>
+    <div class="main"> 
+        <div class="side1"></div>
+        <div class="main-screen">
+            <div class="tab">
+                <input 
+                placeholder="Choose a goat"
+                type="number"
+                min='1'
+                max="6">
+                <button onclick="playGame()">play</button>
+            </div>
+            <div class="game">
+                <div class="finish-line"></div>
+                <div class="goats goat1"><p>1</p>
+                    <img src="img/standGoat.png" alt="" class="pic-goat">
+                </div>
+                <div class="goats goat2"><p>2</p>
+                    <img src="img/standGoat.png" alt="" class="pic-goat">
+                </div>
+                <div class="goats goat3"><p>3</p>
+                    <img src="img/standGoat.png" alt="" class="pic-goat">
+
+                </div>
+                <div class="goats goat4"><p>4</p>
+                    <img src="img/standGoat.png" alt="" class="pic-goat">
+
+                </div>
+                <div class="goats goat5"><p>5</p>
+                    <img src="img/standGoat.png" alt="" class="pic-goat">
+
+                </div>
+                <div class="goats goat6"><p>6</p>
+                    <img src="img/standGoat.png" alt="" class="pic-goat">
+
+                </div>
+            </div>
+            <div class="tab2">
+                <h2>wins: 0 , losses: 0</h2>
+            </div>
+        </div>
+        <div class="side1"> </div>
+    </div>
+    <div class="footer">No goat was harmed in the process of building this game</div>
+    <div class="pop-up"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
