@@ -1,6 +1,6 @@
 body {
     background-color: yellow;
-    background-image:url(../img/backround.png);
+    background-image:url('../img/backround.png');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -47,7 +47,21 @@ body {
 .side1 {
     width: 200px;
     height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.position {
+    display: none;
+    flex-direction:column;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.position span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* main screen*/
 
 .main-screen {
     width: 600px;
@@ -70,7 +84,7 @@ body {
 .tab input {
     margin: 10px;
     padding: 10px;
-    width: 120px;
+    width: 140px;
     border-radius: 20px;
     border: solid black 1px;
 }
